@@ -1,0 +1,43 @@
+body {
+  background-color: #e3f2fd;
+  color: #0d47a1;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+#root {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.container {
+  text-align: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding: 20px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 500px;
+  width: 100%;
+  margin-top: 20px;
+}
+
+button {
+  background-color: #0d47a1;
+  color: white;
+  margin: 10px;
+}
+
+button:hover {
+  background-color: #1565c0;
+}
+
+.MuiTextField-root, .MuiButton-root {
+  margin: 10px 0;
+}
